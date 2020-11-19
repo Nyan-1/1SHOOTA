@@ -15,7 +15,7 @@ exports.run = (client, msg, args) => {
     .addField('User Channels 📢', '`userchannels-setup` `join` `uckick`')
 
     .setColor("RANDOM")
-    .setFooter("To view extra information about a command, use !help <command>")
+    .setFooter("To view extra information about a command, use !help <command> || Made By Nyan")
     msg.channel.send(embed)
     return;
   }
